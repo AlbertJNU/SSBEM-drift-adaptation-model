@@ -396,7 +396,6 @@ y_all = pd.DataFrame(y_all, columns=['true', 'predict'])
 print(f"MAE: {mean_absolute_error(y_true[0:], y_hat[0:])}")
 print(f"MSE: {mean_squared_error(y_true[0:], y_hat[0:])}")
 print(f"RMSE: {np.sqrt(mean_squared_error(y_true[0:], y_hat[0:]))}")
-print(f"决定系数R2: {r2_score(y_true[0:], y_hat[0:])}")
 
 font = {'family': 'sans-serif',
         'color': 'black',
