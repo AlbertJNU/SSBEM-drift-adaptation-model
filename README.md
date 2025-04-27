@@ -12,12 +12,21 @@ You can refer to the main online prediction code (main_SSBEM_incremental.py) to 
 **To evaluate different model checkpoints, please configure the comparison model settings in main_SSBEM_incremental.py:**
 
 #Comparison model setting
+
 #NBEATS: model = 'NBEATS'; model_load_path = 'checkpoints_NBEATS'; recursive_function = False
+
 #SSBEM_B: model = 'SSBEM'; model_load_path = 'checkpoints_SSBEM_B'; recursive_function = False
+
 #SSBEM_BR: model = 'SSBEM'; model_load_path = 'checkpoints_SSBEM_BR'; recursive_function = True
+
 #SSBEM_BRD: model = 'SSBEM'; model_load_path = 'checkpoints_SSBEM_BRD'; recursive_function = True
+
 #SSBEM_BRN: model = 'SSBEM'; model_load_path = 'checkpoints_SSBEM_BRN'; recursive_function = True
+
 #SSBEM_BRS: model = 'SSBEM'; model_load_path = 'checkpoints_SSBEM_BRS'; recursive_function = True
+
 model = 'SSBEM'
+
 model_load_path = 'checkpoints_SSBEM_BRS'
+
 recursive_function = True
