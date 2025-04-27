@@ -139,8 +139,7 @@ while n_samples < max_samples and stream.has_more_samples():
                 modelset = 'Online_Recursive_1'
                 dataset = 'Online_Recursive_1'
 
-            y_predict = \
-            online_regressor.predict(data_x, data_y, modelset=modelset, data_path='./dataset/' + dataset, win_size=win_size,
+            y_predict = online_regressor.predict(data_x, data_y, modelset=modelset, data_path='./dataset/' + dataset, win_size=win_size,
                                      step=1, prediction_length=2)[0][0, 0, 0].item()
             true_label = stream.get_sample(index + 1)[1][-1]
             y_hat_list.append(y_predict)
