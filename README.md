@@ -1,5 +1,5 @@
 # SSBEM-drift-adaptation-model
-This is the repository for the paper: **Concept Drift Meets Industrial Data Streams: An Efficient Drift Adaptation Framework with Knowledge Embedding and Transfer**.
+This is the repository for the paper under review: **Concept Drift Meets Industrial Data Streams: An Efficient Drift Adaptation Framework with Knowledge Embedding and Transfer**.
 
 **This repository mainly consists of three parts:**
 
